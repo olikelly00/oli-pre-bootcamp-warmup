@@ -1,17 +1,16 @@
 * {
    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-   margin: auto;
+   letter-spacing: normal;
+   margin: 0;
+   padding: 0;
+   border: border-box;
    line-height: 1.25em;
-   
 }
 
 body {
     text-align:center;
     background-color: #fff;
-    padding-right: 80px;
-    padding-left: 80px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -21,17 +20,18 @@ body {
 }
 
 #section1-searchbutton {
-    justify-content: center;
+    text-align: center;
     border:none;
     border-radius: 100px;
+    padding: 5px;
     box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.2);
-    padding: 15px;
-    width: 70%;
-    max-height: 100%;
-    font-size: 28px;
+    width: 60%;
 }
 
 
-#section1-toggleimg {
-    object-position: top 0px right 0px;
+
+.section2 button {
+    color: #0000009b;
+    font-size: 14px;
+    font-weight: 600
 }
