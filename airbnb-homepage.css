@@ -41,3 +41,74 @@ body {
     text-decoration: 3px rgba(0, 0, 0, 0.118) underline;
     text-underline-offset: 1.5em;
 }
+
+.section3-listing {
+    position: relative;
+}
+
+#listing-image {
+    width: 342px;
+    height: 324px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 16px; 
+    left: 38px; 
+    background-color: #fff; 
+    padding: 5px 11px; 
+    border-radius: 35px;
+    font-size: 12px; 
+    font-weight: 500;
+}
+
+#add-to-wishlist {
+    position: absolute;
+    top: 11px; 
+    left: 328px; 
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.listing-details {
+    position:absolute;
+    text-align: left;
+    top: 336px;
+    left: 22px;
+}
+
+.star-rating {
+    position:absolute;
+    float: right;
+    top: 336px;
+    right: 22px;
+}
+
+.host-type-prospective-dates {
+    color:#717171;
+    font-weight: 300;
+}
+
+.listing-price {
+    color:black;
+}
+
+quick-links {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0%;
+    margin-top: 25%;
+}
+
+.quick-links-row  {
+    display: flex
+}
+
+.quick-links-column {
+    flex: 33%;
+}
